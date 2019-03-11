@@ -61,7 +61,7 @@ public class RhymingDict {
 		}
 	} 
 
-	// TO DO 2: Store a rhymeGroup (key) and word (value) in the Dictionary (hashtable)
+	// Store a rhymeGroup (key) and word (value) in the Dictionary (hashtable)
 	public static void storeRhyme(DictionaryInterface rhymingDict, String line) {
 		String word = getWord(line);
 		String rhymeGroup = getRhymeGroup(line);
@@ -135,7 +135,7 @@ public class RhymingDict {
 	
 	} 
 
-	// TO DO #3: Remove any of the unrhymables
+	// Remove any of the unrhymables
 	public static void removeUnrhymables(DictionaryInterface rhymingDict) {
 		String tempKeys[] = rhymingDict.getKeys();
 		
