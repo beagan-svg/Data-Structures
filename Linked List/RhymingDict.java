@@ -10,7 +10,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class RhymingDict { 	
-  
 
 	// Given a pronunciation, get the rhyme group
 	// get the more *heavily emphasized vowel* and follwing syllables
@@ -78,10 +77,6 @@ public class RhymingDict {
 				*/
 		// List of rhyme groups. The items in this linked list will be RhymeGroupWords. 
 
-		/* TODO: Add in your code to load the dictionary into your linked lists. Remember that rhymeGroups is a 
-		   list of RhymeGroupWords. Inside each of this objects is another linked list which is a list of words within the same
-		   rhyme group. I would recommend first getting this working with MyLinkedList for both lists (rhyme groups and 
-		   word lists) then get it working using MySortedLinkedList for the word groups. */
 
 		ListInterface rhymeGroups = new MyLinkedList(); 
 			
