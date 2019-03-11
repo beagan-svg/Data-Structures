@@ -5,7 +5,6 @@ Assignment 4
 *********************************************************************************/
 class MyHashtable implements DictionaryInterface {
 
-	// TO DO 1:
 	protected int tableSize;	     // the size of the array
 	protected int size;		 		 // the number of key/value stored in Hashtable
 	protected MyLinkedList[] table;  // an array of MyLinkedList	
@@ -164,9 +163,6 @@ class MyHashtable implements DictionaryInterface {
 		}
 		return tempKeys; 
 	}
-
-
-	// End TO DO 1
 
 	// Returns the size of the biggest bucket (most collisions) in the hashtable. 
 	public int biggestBucket() {
